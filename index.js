@@ -1,8 +1,4 @@
-
-/* TODO:
- * 1. Lint `$__avatar` or `$--black`.
- * 2. Check non-standard values, e.g. `font-size: 17px`.
- */
+'use strict';
 
 module.exports = {
     extends: 'stylelint-config-standard',
@@ -12,7 +8,7 @@ module.exports = {
     rules: {
         indentation: 4,
         'selector-pseudo-element-colon-notation': 'single',
-        'max-nesting-depth': [ 2, {
+        'max-nesting-depth': [2, {
             ignore: ['blockless-at-rules'],
         }],
         'no-duplicate-selectors': true,
