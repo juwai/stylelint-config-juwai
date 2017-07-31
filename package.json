@@ -1,0 +1,23 @@
+{
+  "name": "stylelint-config-juwai",
+  "version": "1.0.0",
+  "description": "Juwai stylelint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juwai/stylelint-config-juwai.git"
+  },
+  "keywords": [],
+  "author": "Juwai Front-end",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juwai/stylelint-config-juwai/issues"
+  },
+  "homepage": "https://github.com/juwai/stylelint-config-juwai#readme",
+  "dependencies": {
+    "stylelint-config-standard": "^17.0.0"
+  }
+}
