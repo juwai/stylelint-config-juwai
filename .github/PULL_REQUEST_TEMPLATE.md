@@ -1,7 +1,3 @@
-**_User Story | Defect_**
-
-**Issue on Jira**: _URL_for_issue_on_Jira_
-
 ## Summary of changes
 
 - _Code/resources that have been added, updated or removed. Please provide rationale for changes whenever applicable_
