@@ -27,7 +27,7 @@ module.exports = {
         'media-feature-name-no-vendor-prefix': true,
         'at-rule-no-vendor-prefix': true,
         'at-rule-no-unknown': [true, {
-            ignoreAtRules: ['mixin', 'include', 'each', 'for'],
+            ignoreAtRules: ['if', 'else', 'extend', 'function', 'error', 'return', 'mixin', 'include', 'each', 'for'],
         }],
         'font-weight-notation': 'named-where-possible',
         'function-url-quotes': 'never',
