@@ -14,7 +14,6 @@ module.exports = {
         'no-duplicate-selectors': true,
         'no-unknown-animations': true,
         'number-max-precision': 2,
-        'unit-blacklist': ['rem'],
         'value-no-vendor-prefix': true,
         'property-no-vendor-prefix': true,
         'selector-max-compound-selectors': 3,
