@@ -14,7 +14,6 @@ module.exports = {
         'no-duplicate-selectors': true,
         'no-unknown-animations': true,
         'number-max-precision': 2,
-        'unit-blacklist': ['rem'],
         'value-no-vendor-prefix': true,
         'property-no-vendor-prefix': true,
         'selector-max-compound-selectors': 3,
@@ -27,7 +26,7 @@ module.exports = {
         'media-feature-name-no-vendor-prefix': true,
         'at-rule-no-vendor-prefix': true,
         'at-rule-no-unknown': [true, {
-            ignoreAtRules: ['if', 'else', 'extend', 'function', 'error', 'return', 'mixin', 'include', 'each', 'for'],
+            ignoreAtRules: ['if', 'else', 'extend', 'function', 'error', 'return', 'mixin', 'include', 'each', 'for', 'content'],
         }],
         'font-weight-notation': 'named-where-possible',
         'function-url-quotes': 'never',
