@@ -13,6 +13,7 @@ module.exports = {
         }],
         'no-duplicate-selectors': true,
         'no-unknown-animations': true,
+        'no-descending-specificity': null,
         'number-max-precision': 2,
         'value-no-vendor-prefix': true,
         'property-no-vendor-prefix': true,
